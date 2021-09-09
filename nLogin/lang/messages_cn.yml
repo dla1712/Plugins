@@ -1,0 +1,670 @@
+#          __             _
+#  _ __   / /  ___   __ _(_)_ __
+# | '_ \ / /  / _ \ / _` | | '_ \
+# | | | / /__| (_) | (_| | | | | |
+# |_| |_\____/\___/ \__, |_|_| |_|
+#                   |___/
+
+# Official Website: https://www.nickuc.com
+# Discord: https://www.nickuc.com/discord
+
+# Translation made by Lemonade
+
+# 不要改变下面这个数字
+file-version: 11
+
+Messages:
+  Title:
+    # 在登录前发送的信息.
+    before-login:
+      title: "&a&l欢迎回来!"
+      subtitle: "&7请用: /l <你的密码> 来进行登录"
+      delays:
+        start: 0
+        duration: 9999
+        end: 6
+    # 在注册前发送的信息.
+    before-register:
+      title: "&a&l欢迎你第一次来到本服务器!"
+      subtitle: "&7请用: /reg <你的密码> <你的密码>来进行注册"
+      delays:
+        start: 0
+        duration: 9999
+        end: 6
+    # 登录后发送的信息.
+    after-login:
+      title: ""
+      subtitle: "&a你已经成功地登录啦!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 注册后发送的信息.
+    after-register:
+      title: ""
+      subtitle: "&a你已经成功地注册咯!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 密码不正确时发送的信息.
+    incorrect-password:
+      title: ""
+      subtitle: "&c密码不正确... 再好好想想呢?"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 已经登录后仍尝试登录时发送的信息.
+    already-login:
+      title: ""
+      subtitle: "&c嘿! 你已经登入了!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 已经注册后仍尝试注册时发送的信息.
+    already-registered:
+      title: ""
+      subtitle: "&c嘿! 你已经注册过啦!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 当玩家注册时两次密码输入的不一致时发送的信息.
+    passwords-dont-match:
+      title: ""
+      subtitle: "&c两次密码输入的不一致哦!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 当自动登录时发送的信息.
+    session-login:
+      title: ""
+      subtitle: "&e你已经成功自动登录啦."
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 当玩家是正版玩家时发送的信息.
+    premium-login:
+      title: ""
+      subtitle: "&e你是正版玩家！已自动登录."
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 当插件重载时发送的信息.
+    plugin-reload:
+      title: ""
+      subtitle: "&a配置文件和语言文件已经成功载入."
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # 当成功备份时发送的信息.
+    backup:
+      title: ""
+      subtitle: "&a已成功备份."
+      delays:
+        start: 0
+        duration: 90
+        end: 6
+    # 当备份失败时发送的信息.
+    backup-error:
+      title: ""
+      subtitle: "&c备份失败！."
+      delays:
+        start: 0
+        duration: 90
+        end: 6
+    # 安全警告的信息.
+    security-warning:
+      title: ""
+      subtitle: "&c一个新的安全警告已经发送到了聊天框"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+
+  action-bar:
+    # 发送给玩家Actionbar的信息 (单数).
+    singular: "&c你还有 {0} 秒来 {login/register}."
+
+    # 发送给玩家Actionbar的信息 (双数).
+    plural: "&c你还有 {0} 秒来 {login/register}."
+
+  delay-kick:
+    # 当玩家花太长时间在注册上时发送的信息.
+    register-kick: "&c你花在注册上的时间太长了."
+
+    # 当玩家花太长时间在登录上时发送的信息.
+    login-kick: "&c你花在登录上的时间也太长了吧."
+
+  successful-operations:
+    # 当玩家成功更改密码时发送的信息.
+    password-changed: "&f你的密码已成功更改."
+
+    # 当玩家成功登录时发送的信息.
+    successful-login: "&f你已成功登录."
+
+    # 当玩家通过正版账号自动登录时发送的信息.
+    successful-premium-login: "&a&f你已成功自动登录."
+
+    # 当玩家从相同IP连接服务器自动登录时发送的信息.
+    successful-session-login: "&a&f你已成功自动登录."
+
+    # 当玩家成功注册时发送的信息.
+    successful-register: "&a&f您已成功注册,请注意保管好密码."
+
+    # 当玩家被强制登录时发送的信息.
+    forcelogin: "&e你已经强制登录了 {0}"
+
+    # 当玩家成功注销账号时发送的信息.
+    unregister-kick: "&a你已经成功取消了注册."
+
+    # 当配置流程结束时发送的信息
+    config-finished: "&a配置结束."
+
+    # 当配置流程被取消时发送的信息
+    config-cancelled: "&c配置进程已取消."
+
+  kick-messages:
+    # 当玩家试图用和已经注册过的玩家很类似的ID进入服务器时(如服内有ABC,玩家取名叫abc就不可以).
+    nick-already-registered: "&c你不能以这个名字进入: {0}&r\n&r&c这个名字已经有人注册了相似的: {1}&r\n&r\n&r&c想进入的话你需要避免使用相近字符(如大小写)"
+
+    # 当玩家输错太多次密码时发送的信息.
+    failed-many-times: "&c你输错密码太多次了."
+
+    # 当玩家输错密码时发送的信息.
+    incorrect-password: "&c输错密码了! 再试一次吧."
+
+    # 当玩家输错安全问题答案时发送的信息.
+    incorrect-answer: "&c答案错误, 再试试吧."
+
+    # 当服务器还未完全启动时发送的信息.
+    wait-server-start: "&c服务器还未完全启动.\n&c等一等再尝试连接吧."
+
+    # 当玩家的IP被封禁时发送的信息.
+    account-blocked: "&c你的IP已因为有可疑作弊行为而被封禁..&r\n&r&c封禁时间还有: {0}"
+
+    # 当玩家输错二步验证密码时发送的信息.
+    incorrect-temporary-password: "&c你的二步验证密码错误，请再尝试一下."
+
+    # 当玩家的ID不符合规则时发送的信息.
+    invalid-nickname: "&c你的用户名不符合要求，请避免使用空格、符号、非法字符."
+
+    # 当玩家的ID和服务器上的正版用户发生冲突时发送的信息.
+    premium-account: "&c抱歉，但是一位用户已经用此账号登陆了.&r\n&r&c想在这个服务器上玩，你必须要重新取名.&r\n&r\n如果你是这个账号的主人，请重启MC后再进行尝试."
+
+  security-messages:
+    # 当玩家被反盗号系统防护时发送的信息.
+    hacking-attack-warning:
+      - ""
+      - " &c&l安全警告"
+      - " &c安全系统已经拦截了一个对你账号的非法侵入行为."
+      - " &c已经有三次没有登录成功."
+      - ""
+      - " &e&l提示: &e请在不同的服务器之间使用不同的密码."
+      - ""
+
+    # 当玩家被反盗号系统防护至少一次以上时发送的信息.
+    hacking-attack-warning2:
+      - ""
+      - " &c&l安全警告"
+      - " &c安全系统已经拦截了 {0} 潜在的对你账号的非法侵入行为."
+      - " &c已经有三次没有登录成功."
+      - ""
+      - " &e&l提示: &e请在不同的服务器之间使用不同的密码."
+      - ""
+
+    # 当防护系统检测到玩家密码不安全时发送的信息.
+    weak-password:
+      - ""
+      - " &c您好，我们发现你的密码可能&f&n极度不安全."
+      - " &c请使用字母，数字，符号组合的密码来&f&n提升你的账户安全."
+      - " &c比如这就是一个安全系数高的密码:&f {0}"
+      - ""
+
+    # 当防护系统检测到玩家没有设置安全问题时发送的信息.
+    security-question-warn-message:
+      - ""
+      - " &c&l安全问题"
+      - " &7使用指令 &f/sq add &7来添加你的安全问题"
+      - " &c这么做可以&n有效减少&r&c你的账户被黑的概率."
+      - ""
+
+    # 当玩家设置好了一个安全问题时发送的信息.
+    security-question-add:
+      - ""
+      - " &e{0}"
+      - ""
+      - " &7输入 &f'cancel' &7来结束进程."
+      - " &7点击这条信息来创建另一个安全问题."
+      - ""
+
+    # 当玩家即将设置完安全问题之前，确认界面发送的信息.
+    security-question-check:
+      - ""
+      - " &a在确认之前，请检查以下信息:"
+      - ""
+      - " &7{0}: &f'{1}'"
+      - ""
+      - " &a如果你确定了，请输入 &f'confirm'&a."
+      - " &e如果你觉得哪里不太对，请输入 &f'repeat'&e."
+      - " &c如果你想结束这一切，请输入 &f'cancel'&c."
+      - ""
+
+    # 当玩家需要回答安全问题时发送的信息.
+    security-question-request:
+      - ""
+      - " &a抱歉，你需要输入安全问题才能继续."
+      - " &a请输入下面问题的答案:"
+      - ""
+      - " &b{0}"
+      - ""
+
+    # 当玩家设置第二个及以上安全问题时发送的信息.
+    security-question-request2:
+      - "&a下一个问题..."
+      - ""
+      - " &b{0}"
+      - ""
+
+  notifications:
+    # 当玩家设置已读时发送的信息.
+    all-viewed: "&a所有的消息都已经浏览过了."
+
+    # 当玩家设置X分钟后提醒时发送的信息.
+    notify-after: "&e这个消息将会在 {0} 分后再发给你一次."
+
+    # 提醒里的按钮文字显示.
+    notify-buttons: "[&a设置为已读//&8稍后再提醒我]"
+
+    # 当鼠标在按钮上时显示的文字.
+    notify-buttons-hover: "[&7点我设置为已读.//&7点我稍后进行提醒.]"
+
+  error-messages:
+    # 当玩家已经登录时发送的信息.
+    already-login: "&c你已经登录过了."
+
+    # 当有玩家已经登录时，另一位玩家试图用该ID继续登录时发送的信息.
+    already-login2: "&c这位玩家已经登录了."
+
+    # 当玩家的名字已经被注册过时发送的信息.
+    already-registered: "&c这个名字已经被注册过了."
+
+    # 当玩家的名字还没被注册过时发送的信息.
+    not-registered: "&c这个名字还没被注册过."
+
+    # 当玩家两次输入的密码不一致时发送的信息.
+    passwords-dont-match: "&c密码不一致."
+
+    # 当玩家在注册时没有输入两次密码时发送的信息.
+    need-password-confirmation: "&c你必须确认你的密码."
+
+    # 当玩家已经用完了一个IP地址可以注册的账号数量时发送的信息.
+    address-limiter-warning: "&c你已经用完了一个IP地址可以注册的账号数."
+
+    # 当玩家修改密码,新密码和旧密码一样时发送的信息.
+    password-same-as-old: "&c你设置的新密码和你现在用的是一样的."
+
+    # 当玩家注册密码过长时发送的信息.
+    password-too-large: "&c密码太长了！减少几位吧."
+
+    # 当玩家注册密码过短时发送的信息.
+    password-too-small: "&c密码太短了！增加几位吧."
+
+    # 当玩家试图强行关闭登录插件发送的信息.
+    plugman-block: "&c你伤不到登录插件一根汗毛的."
+
+    # 当无权限玩家试图修改插件时发送的信息..
+    insufficient-permissions: "&c你无权这么做."
+
+    # 显示如何使用指令.
+    command-usage: "&c你必须使用{0}."
+
+    # 当玩家正在线上发送的信息.
+    already-online: "&c这位玩家正在线上."
+
+    # 当玩家不在线上发送的信息.
+    offline-error: "&c这位玩家目前不在线."
+
+    # 当命令不能通过控制台运行时发送的信息.
+    player-command-usage: "&c这个命令不能通过控制台运行."
+
+    # 当命令只能通过控制台运行时发送的信息.
+    console-command-usage: "&c这个命令只能通过控制台运行."
+
+    # 当插件重载时发送的信息.
+    plugin-reload-message: "&e插件已重载. &b汉化by-Lemonade123"
+
+    # 当插件的一项功能被关闭时.
+    command-function-disabled: "&c该指令的功能 {0} 已经被关闭了."
+
+    # 当SQL出现异常时.
+    database-error: "&c抱歉，但目前我们无法完成这个进程。 [SQL FAIL]"
+
+  twofactor:
+    # 临时密码还未生成时发送的信息.
+    no-temporary-password: "&c临时密码还未生成."
+
+    # 玩家还没有关联两步验证账号时发送的信息.
+    no-twofactor-registered: "&c你还没有关联 {0} 账号."
+
+    # 玩家已经关联两步验证账号时发送的信息.
+    twofactor-already-registered: "&c你已经和 {0} 账号关联了."
+
+    # 玩家解除关联两步验证账号时发送的信息.
+    twofactor-unregistered: "&e你的 {0} 已经成功解除关联"
+
+    # 玩家成功关联两步验证账号时发送的信息.
+    confirmed-account: "&a你的 {0} 账号已经被成功注册"
+
+    # 发送两步验证验证码给关联账号时给玩家发送的信息.
+    confirmation-message-sent: "&7一个确认密码已经被发送到了 {0} (&f{1}&7)."
+
+    # 当需要玩家快速查看验证信息时发送的提示.
+    check-message: "&a检查你关联账号上收到的信息."
+
+    # 当玩家需要等一会再执行指令时发送的信息.
+    command-delay: "&c在重新执行这个指令前请再等一会."
+
+    # 两步验证帮助界面.
+    help-command:
+      - ""
+      - " &f状态: [&a{2} 已注册//&c{2} 未注册]&f."
+      - ""
+      - " [&a■ &7/{0} add: &f注册你的 {1}.]"
+      - " [&a■ &7/{0} remove: &f移除你的 {1}.]"
+      - " [&a■ &7/{0} recover: &f找回你的账号.]"
+      - " [&a■ &7/{0} twofactor: &f启用/禁用你的二步验证.]"
+      - ""
+
+    switch:
+      # 二步验证功能启用成功时发送的信息.
+      enabled: "&a二步验证功能已启用."
+
+      # 二步验证功能关闭时发送的信息.
+      disabled: "&c二步验证功能已关闭."
+
+    recover:
+      # 当玩家提供的两步验证账号和关联时不一致时发送的信息.
+      twofactor-not-equal: "&c你提供的 {0} 和注册时提供的不一致."
+
+      # 当需要玩家快速查看验证信息时发送的提示.
+      message-sent: "&a一条恢复信息已经发送到了你的关联账号上."
+
+      # 当玩家成功复原账号,密码自动更改时发送的信息.
+      automatic-change: "&a你的密码已经被自动更改为 &f'{0}'&a."
+
+    security-questions:
+      # 当玩家没有设置任何安全问题时发送的信息.
+      no-question-registered: "&c你还没有设置任何安全问题."
+
+      # 当玩家设置安全问题时输入无效数字时发送的信息.
+      invalid-question-id: "&c问题ID无效，请不要设置小于或等于0的数字."
+
+      # 安全问题不存在时发送的信息.
+      question-does-not-exists: "&c安全问题 {0} 不存在."
+
+      # 安全问题被移除时发送的信息.
+      question-deleted: "&a安全问题 {0} 已被成功移除."
+
+      # 安全问题到上限时发送的信息.
+      max-questions: "&c你已经用完了在该服务器上可用的安全问题个数."
+
+      # 安全问题最小数量提示.
+      min-questions-recover: "&c你至少需要三个安全问题来复原你的账号."
+
+      # 安全问题帮助页面
+      help-command:
+        - ""
+        - " &f状态: [&c还没有安全问题被添加//&a{1} 安全问题已添加//&a{1} 安全问题已添加]&f."
+        - ""
+        - " [&a■ &7/{0} 添加: &f添加一个安全问题.]"
+        - " [&a■ &7/{0} 移除 <id>: &f移除某一个安全问题.]"
+        - " [&a■ &7/{0} 列表: &f列出你所有的安全问题.]"
+        - " [&a■ &7/{0} 恢复: &f通过安全问题找回你的账号.]"
+        - ""
+
+    discord:
+      # 当玩家确认Discord账号时发送给他们的信息.
+      confirm-account:
+        - ""
+        - " &7为了完成关联，你需要确认你的Discord账号."
+        - " &7加入 &b{0} &7然后 "
+        - " &7对机器人输入指令 &f{1} ."
+        - ""
+        - " [&a点击这里获取带有token的指令.]"
+        - ""
+
+      # 当玩家已成功关联Discord时发送的信息.
+      account-linked: "&a在Discord的配置文件已经成功更新.\n&a你已与 &f{0} &a账号关联."
+
+      # 当用户加入 Discord 时发送的信息。
+      verify-message:
+        title: "您的密码已被创建"
+        description: "nLogin的系统为@玩家账户生成了一个确认密码。"
+        fields:
+          - "命令->要认证，使用'/discord @code'命令。"
+
+      # 当用户要求恢复密码时发送的信息。
+      recover-message:
+        title: "要求恢复密码。"
+        description: "已为@玩家申请了密码恢复请求。如果不是你，请点击X反应来阻止访问。"
+        fields:
+          - "问题？->如果出现问题，请使用'/discord <新密码> @code'命令。"
+
+      # 检测到可能的入侵者时发送的信息。
+      suspect-access:
+        title: "@player账户上有可疑活动。"
+        description: "@player账户上的可疑活动。"
+        fields:
+          - "访问数据->尝试的日期。@data @hora"
+          - "访问信息->IP 地址。@address"
+          - "可能的入侵者已被禁止->这个账户上的ip地址因涉嫌入侵而被暂时禁止。"
+
+      # 发送给用户的信息，以便通过 Discord 启用安全。
+      warn-message:
+        - ""
+        - " &7执行命令&f/discord关联&7到寄存器。"
+        - " &7你的&cdiscord&7。通过这样做，你"
+        - " &7减少了被黑客攻击的机会。"
+        - ""
+
+      # 当用户注册他们的 Discord 帐户时发送的信息。
+      sync-message:
+        invalid-code:
+          title: "***注册你的 Discord***"
+          description: "对不起，你输入的令牌无效或不存在。"
+          fields: []
+        success:
+          title: "***注册你的 Discord***"
+          description: "您的 Discord 已成功注册。"
+          fields: []
+
+      # 发送给用不同ip地址登录的用户的信息。
+      change-address:
+        - ""
+        - "&a抱歉，但需要确认身份。"
+        - "&a一个安全代码已被发送到你的注册异议。"
+        - "&a使用/discord <sent code>命令来确认自己的身份。"
+        - "&a如果你弄错了密码或者你注销了，将产生一个新的代码。"
+        - ""
+
+    twitter:
+      # 输入的twitter无效时发送的指令.
+      invalid-account: "&c输入的Twitter无效."
+
+      # 输入的twitter是服务器绑定的twitter时发送的指令.
+      server-twitter: "&c你不能使用服务器使用的twitter."
+
+      # 用户在 Twitter 上关联时发送的消息。
+      configure-message:
+        - "nLogin的系统为@玩家账户生成了一个临时密码。"
+        - ""
+        - "要确认你的账户，请使用'/twitter @code'命令。"
+        - "如果不是你，请忽略这条信息。"
+
+      # 当用户从不同的 IP 地址登录时发送的消息。
+      verify-message:
+        - "nLogin的系统已经为@玩家账户生成了一个确认密码。"
+        - ""
+        - "要验证，请使用'/twitter @code'命令。"
+        - "如果不是你，请立即更改你的密码。"
+
+      # 当用户请求恢复密码时发送的消息。
+      recover-message:
+        - "要恢复你的账户，请使用命令/twitter <新密码> @code"
+        - ""
+        - "如果不是你，请无视这条信息。"
+
+      # 检测到可能的入侵者时发送的消息。
+      suspect-access:
+        - "nLogin的系统在您的@玩家账户上检测到了可疑的活动。"
+        - ""
+        - "尝试的日期。@data @hora"
+        - ""
+        - "该账户的IP地址因涉嫌入侵而被暂时禁止。"
+
+      # 发送给用户以激活 Twitter 安全的消息。
+      warn-message:
+        - ""
+        - " &7执行&f/twitter关联&7的命令来注册"
+        - " &7你的Twitter&7。通过这样做，你"
+        - " &7减少了被黑客攻击的机会。"
+        - ""
+
+      # 发送给使用不同 IP 地址登录的用户的消息。.
+      change-address:
+        - ""
+        - "&a抱歉，但需要确认身份。"
+        - "&a一个安全代码已被发送到你注册的Twitter账户。"
+        - "&a使用/twitter命令<sent code>来验证。"
+        - "&a如果你弄错了密码或者你注销了，将生成一个新的密码。"
+        - ""
+        - "&7记得要关注&f@twitter_sv&7未有微博。"
+        - ""
+
+    email:
+      #输入的邮箱无效时发送的指令.
+      invalid-account: "&c输入的邮箱无效."
+
+      # 输入的邮箱是服务器正在使用的邮箱时发送的指令.
+      server-email: "&c你不可以使用服务器使用的邮箱."
+      
+      # 用户在电子邮件中关联时发送的消息。
+      configure-message:
+        subject: "确认账户@player"
+        content:
+          - "<h1>"
+          - " 你好，@玩家！"
+          - "</h1>"
+          - "<p>"
+          - " 要完成你的电子邮件注册过程，请使用<strong>/email @code</strong>命令。"
+          - "</p>"
+          - "<p>"
+          - " 如果不是你，请忽略此信息。"
+          - "</p>"
+
+      # 当用户从不同的 IP 地址登录时发送的消息。
+      verify-message:
+        subject: "账户@player的登录确认"
+        content:
+          - "<h1>"
+          - " 你好，@玩家！"
+          - "</h1>"
+          - "<p>"
+          - " 要在服务器上进行认证，请使用<strong>/email @code</strong>命令。"
+          - "</p>"
+          - "<p>"
+          - " 如果不是你，请立即更改你的密码<strong></strong>。"
+          - "</p>"
+
+      # 当用户请求恢复密码时发送的消息。
+      recover-message:
+        subject: "恢复账户@player"
+        content:
+          - "<h1>"
+          - " 你好，@玩家！"
+          - "</h1>"
+          - "<p>"
+          - " 要恢复你的账户，请使用命令<strong>/email <新密码> @code</strong>。"
+          - "</p>"
+          - "<p>"
+          - " 如果不是你，请无视这条信息。"
+          - "</p>"
+
+      # 检测到可能的入侵者时发送的消息。
+      suspect-access:
+        subject: "@player账户上有可疑活动"
+        content:
+          - "<h1>"
+          - " 你好，@玩家！"
+          - "</h1>"
+          - "<p>"
+          - " nLogin的系统检测到你的账户有可疑的活动。"
+          - "</p>"
+          - "<p>"
+          - "<strong>尝试的日期：</strong> @data @hora"
+          - "</p>"
+          - "<p>"
+          - "该ip地址因涉嫌入侵而被暂时禁止使用。"
+          - "</p>"
+
+      # 发送给用户以启用电子邮件安全的消息
+      warn-message:
+        - ""
+        - " &7执行&f/email associate&7的命令来注册"
+        - " &7你的电子邮件&7。通过这样做，你"
+        - " &7减少了被黑客攻击的机会。"
+        - ""
+
+      # 发送给使用不同 IP 地址登录的用户的消息。
+      change-address:
+        - ""
+        - "&a 抱歉，但需要确认身份。"
+        - "&a一个安全代码已被发送到你的注册电子邮件地址。"
+        - "&a使用命令/email <sent code>来验证。"
+        - "&a如果你弄错了密码或者你注销了，将会产生一个新的代码。"
+        - ""
+
+  premium-login:
+    # 当检测到玩家是正版用户时发送的信息.
+    question:
+      - ""
+      - " &e你在用正版账户登录嘛?"
+      - " &7(在确认后，你需要重新加入.)"
+      - ""
+      - "[&a是//&c不是]"
+      - ""
+
+    # 你的账号已经被标记为正版用户.
+    already-premium: "&c你的账号已经被标记为正版用户."
+
+    # 发送给正版玩家需要重新登陆的消息.
+    challenge-kick: "&7为了确认你是否是 &a正版用户&7, 你需要再登入一次."
+
+  other-messages:
+    # 悬浮信息(快捷按钮) /login.
+    hover-message-login: "&7点击这里来快捷输入指令/log."
+
+    # 悬浮信息(快捷按钮) /register.
+    hover-message-register: "&7点击这里来快捷输入指令/register."
+
+    # 指令用法: /login
+    message-login: "&e请使用指令 &7/login <password>&e."
+
+    # 指令用法: /register
+    message-register: "&e请使用指令 &7/register <password> <password>&e."
+
+    # 指令用法: /changepassword
+    message-changepassword: "&e请使用指令 &7/changepassword <current password> <new password>&e."
+
+    # 指令用法: /checkprofile
+    message-verify: "&e请使用指令 &7/checkprofile <player>&e."
+
+    # 指令用法: /unregister
+    message-unregister: "&e请使用指令 &7/unregister <current password>&e."

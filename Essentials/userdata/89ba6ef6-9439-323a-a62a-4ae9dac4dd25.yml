@@ -1,0 +1,29 @@
+lastAccountName: Aizon21
+timestamps:
+  login: 1630156253938
+  logout: 1630157796376
+  lastteleport: 1630157699380
+ipAddress: 86.120.224.100
+lastlocation:
+  world: tmssmp
+  x: -168.74529727172214
+  y: 72.0
+  z: 673.7264757231229
+  yaw: -62.20276
+  pitch: 3.047638
+logoutlocation:
+  world: tmssmp
+  x: -132.66345722439524
+  y: 79.0
+  z: 722.8776185143128
+  yaw: 107.70099
+  pitch: -6.5492973
+nickname: Aizon
+homes:
+  home:
+    world: tmssmp
+    x: -133.0472995065909
+    y: 79.0
+    z: 719.8178797991837
+    yaw: 5.5749817
+    pitch: 32.227676

@@ -1,0 +1,21 @@
+lastAccountName: GeneralGura
+timestamps:
+  login: 1630154295071
+  lastteleport: 1630158171279
+  logout: 1630158332877
+ipAddress: 49.145.41.177
+lastlocation:
+  world: tmssmp
+  x: 144.0
+  y: 84.0
+  z: -32.0
+  yaw: 20.550001
+  pitch: 49.95001
+logoutlocation:
+  world: tmssmp
+  x: 288.8573978020388
+  y: 67.0
+  z: 100.45973350815103
+  yaw: -72.00009
+  pitch: 30.600033
+godmode: false

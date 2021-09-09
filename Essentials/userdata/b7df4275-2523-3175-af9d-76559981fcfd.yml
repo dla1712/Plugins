@@ -1,0 +1,49 @@
+lastAccountName: LogicalBot
+timestamps:
+  login: 1630140307722
+  logout: 1630140461139
+  lastteleport: 1630140339988
+  mute: 0
+ipAddress: 116.240.127.13
+logoutlocation:
+  world: tmssmp
+  x: 284.33319114276384
+  y: 69.0
+  z: 107.65513465739704
+  yaw: 64.798546
+  pitch: 31.499712
+lastlocation:
+  world: tmssmp
+  x: 465.3207359263159
+  y: 64.0
+  z: 697.0411743860288
+  yaw: 143.35236
+  pitch: 9.149968
+homes:
+  home:
+    world: world
+    x: 2882.5441295555024
+    y: 69.0
+    z: -2258.8101640276764
+    yaw: 179.19464
+    pitch: 30.599918
+  gura:
+    world: tmssmp
+    x: 283.26750628874214
+    y: 68.0
+    z: 120.97311875406801
+    yaw: 67.217896
+    pitch: 20.099894
+  lava:
+    world: tmssmp
+    x: 401.6450847141043
+    y: 64.0
+    z: 180.7090702688287
+    yaw: -73.09848
+    pitch: 4.7999806
+powertools: {}
+nickname: ladavid303
+afk: false
+godmode: true
+muted: false
+money: '22.0'

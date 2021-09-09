@@ -1,0 +1,673 @@
+#          __             _
+#  _ __   / /  ___   __ _(_)_ __
+# | '_ \ / /  / _ \ / _` | | '_ \
+# | | | / /__| (_) | (_| | | | | |
+# |_| |_\____/\___/ \__, |_|_| |_|
+#                   |___/
+
+# Official Website: https://www.nickuc.com
+# Discord: https://www.nickuc.com/discord
+
+# Lithuanian translation made by SkirmisLTU (Discord: SkirmisLTU#3310)
+
+# Do not change this setting
+file-version: 7
+
+Messages:
+  Title:
+    # Message sent before login.
+    before-login:
+      title: "&a&lSveiki!"
+      subtitle: "&7Naudokite: /login <Tavo slaptažodis>"
+      delays:
+        start: 0
+        duration: 9999
+        end: 6
+    # Message sent before registration.
+    before-register:
+      title: "&a&lSveiki!"
+      subtitle: "&7Naudokite: /register <Slaptažodis> <Slaptažodis>"
+      delays:
+        start: 0
+        duration: 9999
+        end: 6
+    # Message sent after login.
+    after-login:
+      title: ""
+      subtitle: "&aJūs sėkmingai prisijungėte!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent after registration.
+    after-register:
+      title: ""
+      subtitle: "&aJūs sėkmingai Užsiregistravote!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent when you miss a password.
+    incorrect-password:
+      title: ""
+      subtitle: "&cNeteisingas slaptažodis!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent when already logged in.
+    already-login:
+      title: ""
+      subtitle: "&cJūs jau prisijungęs!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent when already registered.
+    already-registered:
+      title: ""
+      subtitle: "&cJūs jau prisiregistavęs!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent when passwords are not equal.
+    passwords-dont-match:
+      title: ""
+      subtitle: "&cSlaptažodžiai nesutampa!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent when session is continued.
+    session-login:
+      title: ""
+      subtitle: "&eJūsų prisijungimo sesija yra tęsiama."
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent when you are an original player.
+    premium-login:
+      title: ""
+      subtitle: "&eJūsų paskyra yra unikali, sėkmingai prisijungėte."
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent when a login session is continued.
+    plugin-reload:
+      title: ""
+      subtitle: "&aKonfigūracijos ir kalbos failai buvo perkrauti."
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent from backup system.
+    backup:
+      title: ""
+      subtitle: "&aAtsarginė kopija sukurta sėkmingai."
+      delays:
+        start: 0
+        duration: 90
+        end: 6
+    # Message sent from backup system.
+    backup-error:
+      title: ""
+      subtitle: "&cNeišėjo sukurti atsarginės kopijos."
+      delays:
+        start: 0
+        duration: 90
+        end: 6
+    # Message sent from security system.
+    security-warning:
+      title: ""
+      subtitle: "&cChat'e išsiustas naujas saugumo įspėjimas"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+
+  action-bar:
+    # Message sent on the player's actionbar before login (singular).
+    singular: "&cJūs turite {0} sekundę, kad {prisijunktumėte/Užsiregistruotumėte}."
+
+    # Message sent on the player's actionbar before login (plural).
+    plural: "&cJūs turite {0} sekundes kad {lprisijunktumėte/Užsoregistruotumėte}."
+
+  delay-kick:
+    # Message sent when a user takes a long time to register.
+    register-kick: "&cPer ilgai užtrukote registruodamiesi."
+
+    # Message sent when a user takes a long time to log in.
+    login-kick: "&cPer ilgai užtrukote prisijunkdami."
+
+  successful-operations:
+    # Message when a user exchanges their password.
+    password-changed: "&aJūsų slaptažodis buvo sėkmingai pakeistas."
+
+    # Message sent when a user successfully logs.
+    successful-login: "&aJūs sėkmingai prisijungėte."
+
+    # Message sent when a user logs in with an original account.
+    successful-premium-login: "&aJūs esate automatiškai prisijungęs, kai naudojate unikalią paskyrą."
+
+    # Message sent when a user logs in using the same ip address.
+    successful-session-login: "&aJūsų prisijungimo sesija yra tęsiama."
+
+    # Message sent when a user successfully registers.
+    successful-register: "&aJūs sėkmingai užsiregistravote."
+
+    # Message sent when you force a player's login.
+    forcelogin: "&eJūs buvote prijunktas {0}"
+
+    # Message sent when a player successfully unregister.
+    unregister-kick: "&aJūs sėkmingai išsiregistravote."
+
+    # Message sent when a configuration is finished
+    config-finished: "&aConfiguracija baigta."
+
+    # Message sent when a configuration is cancelled
+    config-cancelled: "&cVeiksmas atšauktas."
+
+  kick-messages:
+    # Message when a player tries to log on to the server with a small difference in the nickname.
+    nick-already-registered: "&cJūs negalite įeiti su slapyvardziu {0}&r\n&r&cdėl to nes šis slapyvardis jau užregistruotas kaip {1}&r\n&r\n&r&cKad, įeiti turite naudoti savo slapyvardį be didžiųjų/mažųjų raidžių"
+
+    # Message sent when a user misses many times.
+    failed-many-times: "&cĮvedėte neteisingą slaptažodį."
+
+    # Message sent when password entered is incorrect.
+    incorrect-password: "&cNeteisingas slaptažodis. Bandykite dar kartą."
+
+    # Message sent when the security questions answer is incorrect.
+    incorrect-answer: "&cNeteisingas atsakymas. Bandykite dar kartą."
+
+    # Message sent when server is still starting.
+    wait-server-start: "&cServeris dar nėra visiškai paleistas.\n&cTruputi palaukite, kad prisijunkti."
+
+    # Message sent when an IP is blocked by suspected invasion.
+    account-blocked: "&cJūsų adresas buvo užblokuotas dėl įtariamos invazijos.&r\n&r&cLikęs užblokavimo laikas: {0}"
+
+    # Message sent when two-factor system temporary password is incorrect.
+    incorrect-temporary-password: "&cNeteisingas slaptažodis.Bandykite dar kartą."
+
+    # Message to kick a user with an invalid nickname.
+    invalid-nickname: "&cJūsų slapyvardis yra neteisingas, iš vardo pašalinkite tarpus, simbolius ir netinkamus simbolius."
+
+    # Message sent when the player's account has already been registered as unique.
+    premium-account: "&cAtsiprašome, bet premium vartotojas (nusipirkęs minecraft) jau prisijungė prie šios paskyros.&r\n&r&cNorėdami žaisti serveryje, turite naudoti kitą slapyvardį.&r\n&r\nJei esate šios paskyros savininkas, pabandykite iš naujo paleisti „Minecraft“."
+
+  security-messages:
+    # Message sent when a user was protected by the heuristic system.
+    hacking-attack-warning:
+      - ""
+      - " &c&lSAUGUMO ĮSPĖJIMAS"
+      - " &cSaugumo sistema užblokavo galimas įsilaužimo atakas jūsų paskyroje."
+      - " &cBuvo bandyta tris kartus nesėkmingai prisijungti."
+      - ""
+      - " &e&lPATARIMAS: &eNAudokite skirtingus slaptažodžius skirtinguose serveriuose."
+
+    # Message sent when a user was protected more than once by the heuristic system.
+    hacking-attack-warning2:
+      - ""
+      - " &c&lSAUGUMO ĮSPĖJIMAS"
+      - " &cSaugumo sistema užblokavo {0} galimas įsilaužimo atakas jūsų paskyroje."
+      - " &cBuvo bandyta tris kartus nesėkmingai prisijungti."
+      - ""
+      - " &e&Susisiekite su serverio administatoriais."
+      - ""
+
+    # Message sent when a user uses a weak password.
+    weak-password:
+      - ""
+      - " &cUžregistruotas slaptažodis laikomas nesaugiu."
+      - " &cNorėdami pagerinti saugumą, naudokite raides, skaičius ir simbolius."
+      - " &cSaugaus slaptažodžio pavyzdys: {0}"
+      - ""
+
+    # Message sent when a player has not yet registered the security questions.
+    security-question-warn-message:
+      - ""
+      - " &c&lAPSAUGOS KLAUSIMAI"
+      - " &7Norėdami užsiregistruoti, spustelėkite šį pranešimą"
+      - " &cApsaugos klausimai&7. Tai darydami"
+      - " &7sumažinsite įsilaužimo tikimybę."
+      - ""
+
+    # Message sent when a security question is being added.
+    security-question-add:
+      - ""
+      - " &e{0}"
+      - ""
+      - " &7Norėdami atšaukti operaciją, įveskite &f'cancel'."
+      - " &7Spustelėkite šį pranešimą, kad sugeneruotumėte kitą klausimą."
+      - ""
+
+    # Message sent when a security question should be reviewed.
+    security-question-check:
+      - ""
+      - " &aPrieš patvirtindami, patikrinkite informaciją:"
+      - ""
+      - " &7{0}: &f'{1}'"
+      - ""
+      - " &aJei esate tikras, įveskite &f'confirm'&a."
+      - " &eJei įvedėte kažką ne taip, įveskite &f'repeat'&e."
+      - " &cJei norite atšaukti šią operaciją, įveskite &f'cancel'&c."
+      - ""
+
+    # Message sent when security questions are requested.
+    security-question-request:
+      - ""
+      - " &aAtsiprašome, bet reikalingas tapatybės patvirtinimas."
+      - " &aAtsakykite į pateiktą klausimą chat'e:"
+      - ""
+      - " &b{0}"
+      - ""
+
+    # Message sent when security questions are requested a second time.
+    security-question-request2:
+      - "&aKitas klausimas..."
+      - ""
+      - " &b{0}"
+      - ""
+
+  error-messages:
+    # Message sent when you are already logged in.
+    already-login: "&cJūs jau esate prisijungęs."
+
+    # Message sent when a user is already logged in.
+    already-login2: "&cŠis žaidėjau jau prisijungęs."
+
+    # Message sent when a nickname has already been registered.
+    already-registered: "&cŠis slapyvardis jau buvo užregistruotas."
+
+    # Message sent when a nickname has not yet been registered.
+    not-registered: "&cŠis slapyvardis dar nebuvo užregistruotas."
+
+    # Message sent when the entered password is not equal to the second.
+    passwords-dont-match: "&cSlaptažodžiai nėra vienodi."
+
+    # Message sent when a player does not confirm your password.
+    need-password-confirmation: "&cTurite patvirtinti savo slaptažodį."
+
+    # Message sent when a user does not have a temporary password.
+    no-temporary-password: "&cLaikinas slaptažodis dar nesugeneruotas."
+
+    # Message sent when IP limits per player pass the limit.
+    address-limiter-warning: "&cJūs išnaudojote žaidėjų limitą per IP adresą."
+
+    # Message sent when a player tries to change password by entering the same password as the current.
+    password-same-as-old: "&cĮvestas slaptažodis yra toks pats kaip dabartinis."
+
+    # Message sent when the password entered is too large.
+    password-too-large: "&cĮvestas slaptažodis per ilgas."
+
+    # Message sent when the password entered is too small.
+    password-too-small: "&cĮvestas slaptažodis per trumpas."
+
+    # Message sent when a user attempts to disable nLogin using PlugMan/System.
+    plugman-block: "&cJūs negalite liesti plugino (naudokite /nlogin reload)."
+
+    # Message when a player does not possess the required permission.
+    insufficient-permissions: "&cJūs neturite leidimo vykdyti šią komandą."
+
+    # Message to show the use of a command.
+    command-usage: "&cJūs turite naudoti {0}."
+
+    # Message to kick a player now online.
+    already-online: "&cŠis žaidėjas jau prisijungęs."
+
+    # Message to display that a player is not online.
+    offline-error: "&cNorimas žaidėjas neprisijungęs."
+
+    # Message to show that the command cannot be executed via console.
+    player-command-usage: "&cŠi komanda buvo išjungta per konsolę."
+
+    # Message to show that a command can only be executed by the console.
+    console-command-usage: "&cŠią komandą galima naudoti tik per konsolę."
+
+    # Message shown when the plugin is reloaded.
+    plugin-reload-message: "&ePapildinys sėkmingai perkrautas."
+
+    # Message shown when the function of a command is disabled.
+    command-function-disabled: "&cKomandos funkcija {0} yra išjungta."
+
+    # Message sent when a database operation has not been successfully performed.
+    database-error: "&cDeja, mums nepavyko užbaigti šios operacijos. Prašau, pabandykite dar kartą. [SQL FAIL]"
+
+  notifications:
+    # Message sent when all notifications have been read.
+    all-viewed: "&aVisi pranešimai buvo peržiūrėti."
+
+    # Message sent when the notification will be sent after X minutes.
+    notify-after: "&eŠis pranešimas vėl bus išsiųstas po {0} minučių."
+
+    # Name of the buttons sent in the notifications.
+    notify-buttons: "[&aPatvirtinkite, kad perskaitėte//&8Priminti man vėliau]"
+
+    # Message when hovering over the buttons sent in the notifications.
+    notify-buttons-hover: "[&7Spustelėkite, jei norite pažymėti šį pranešimą kaip perskaitytą.//&7Spustelėkite, jei norite prisiminti šį pranešimą vėliau.]"
+
+  twofactor:
+    # Message sent when a user does not have a temporary password.
+    no-temporary-password: "&cA temporary password has not yet been generated."
+
+    # Message sent when a user does not have a linked account.
+    no-twofactor-registered: "&cYou do not have a {0} account."
+
+    # Message sent when a user has already linked an account.
+    twofactor-already-registered: "&cYou have already registered your {0}."
+
+    # Message sent when a user removes their account from two factors.
+    twofactor-unregistered: "&eYour {0} was successfully disassociated"
+
+    # Message sent when a user confirms their two-factor account.
+    confirmed-account: "&aYour {0} account has been successfully registered"
+
+    # Message sent when a confirmation message is sent.
+    confirmation-message-sent: "&7A confirmation code was sent to your {0} (&f{1}&7)."
+
+    # Message sent when a user requests a new message in a short period of time.
+    check-message: "&aCheck the message sent to your associated account."
+
+    # Message sent when the player must wait to use the command again.
+    command-delay: "&cWait a while before executing this command again."
+
+    # Two-factor help message.
+    help-command:
+      - ""
+      - " &fStatus: [&a{2} registered//&c{2} not registered]&f."
+      - ""
+      - " [&a■ &7/{0} add: &fRegister your {1}.]"
+      - " [&a■ &7/{0} remove: &fRemove your {1}.]"
+      - " [&a■ &7/{0} recover: &fRecover your account.]"
+      - " [&a■ &7/{0} twofactor: &fEnables/disables the two-factor.]"
+      - ""
+
+    switch:
+      # Message sent when a user activates the two-factor.
+      enabled: "&aThe two-factor feature has been activated."
+
+      # Message sent when a user disables the two-factor.
+      disabled: "&cThe two-factor feature has been deactivated."
+
+    recover:
+      # Message sent when a user does not provide the same two-factor account registered.
+      twofactor-not-equal: "&cThe {0} provided is not the same as the registered one."
+
+      # Message sent when a user requests a recovery request in a short period of time.
+      message-sent: "&aA recovery message was sent to your associated account."
+
+      # Message sent when a user recovers his account and his password is set automatically.
+      automatic-change: "&aYour password was automatically changed to &f'{0}'&a."
+
+    security-questions:
+      # Message sent when a user has not registered any security questions yet.
+      no-question-registered: "&cYou have not yet registered any security questions."
+
+      # Message sent when the question id is invalid.
+      invalid-question-id: "&cThe id entered is not valid or is less than or equal to zero."
+
+      # Message sent when a question does not exist.
+      question-does-not-exists: "&cThe question with the id {0} does not exist."
+
+      # Message sent when a question is deleted.
+      question-deleted: "&aThe question with the id {0} has been successfully removed."
+
+      # Message sent when a user has exhausted the maximum of security questions registered.
+      max-questions: "&cYou have exhausted the limit of security questions allowed on this server."
+
+      # Message sent when a user does not have the minimum security questions registered to recover the account.
+      min-questions-recover: "&cYou need to have at least 3 questions registered to recover your account."
+
+      # Security questions help message
+      help-command:
+        - ""
+        - " &fStatus: [&cNo questions registered//&a{1} question registered//&a{1} questions registered]&f."
+        - ""
+        - " [&a■ &7/{0} add: &fRegister a question.]"
+        - " [&a■ &7/{0} remove <id>: &fRemoves a question.]"
+        - " [&a■ &7/{0} list: &fLists your questions.]"
+        - " [&a■ &7/{0} recover: &fRecovers your account.]"
+        - ""
+
+    discord:
+      # Message sent when a user needs to confirm the Discord account.
+      confirm-account:
+        - ""
+        - " &7To complete the linking, you need to confirm your Discord account."
+        - " &7Join to &b{0} &7and type "
+        - " &7the command in the DM of the &f{1} &7bot."
+        - ""
+        - " [&aClick here to get the command with the token.]"
+        - ""
+
+      # Message sent when a user links his Discord account.
+      account-linked: "&aConfiguration in Discord successfully updated.\n&aYou have been linked with &f{0} &aaccount."
+
+      # Message sent when a user joins Discord.
+      verify-message:
+        title: "Your password has been created"
+        description: "nLogin's system generated a confirmation password for the @player account."
+        fields:
+          - "Command->To authenticate, use the command '/discord @code'."
+
+      # Message sent when a user requests a password recovery.
+      recover-message:
+        title: "Password recovery requested."
+        description: "A password recovery request has been requested for the @player.\nIf it was not you, click on the X reaction to block access."
+        fields:
+          - "Problems?->In case of problems, use the '/discord <new password> @code' command."
+
+      # Message sent when a possible intruder is detected.
+      suspect-access:
+        title: "Suspicious activity on the @player account."
+        description: "A suspicious login has been detected in the @player account."
+        fields:
+          - "Access data->Date of attempt: @data @hora"
+          - "Access Information->IP Address: @address"
+          - "The possible invader has been banned->The ip address on this account has been temporarily banned on suspicion of invasion."
+
+      # Message sent to users to enable security by Discord
+      warn-message:
+        - ""
+        - " &7Perform the command &f/discord associate &7to register"
+        - " &7your &cdiscord&7. By doing so, you"
+        - " &7decrease the chance of being hacked."
+        - ""
+
+      # Message sent when users are registering their Discord account.
+      sync-message:
+        invalid-code:
+          title: "***Sign up your Discord***"
+          description: "Sorry, but the token you entered is invalid or does not exist."
+          fields: []
+        success:
+          title: "***Sign up your Discord***"
+          description: "Your Discord was successfully registered."
+          fields: []
+
+      # Message sent to a user who logs on with a different ip address.
+      change-address:
+        - ""
+        - "&aSorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered disagreement."
+        - "&aUse the /discord <sent code> command to authenticate yourself."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+
+    twitter:
+      # Message sent when the provided twitter is invalid.
+      invalid-account: "&cThe entered twitter is invalid."
+
+      # Message sent when the supplied twitter is the same as the server's.
+      server-twitter: "&cYou cannot use the server's twitter."
+
+      # Message sent when a user associates on Twitter.
+      configure-message:
+        - "The nLogin's system generated a temporary password for the @player account."
+        - ""
+        - "To confirm your account, use the '/twitter @code' command."
+        - "If it wasn't you, ignore this message."
+
+      # Message sent when a user logs in from a different ip address.
+      verify-message:
+        - "The nLogin's system has generated a confirmation password for the @player account."
+        - ""
+        - "To authenticate, use the '/twitter @code' command."
+        - "If it was not you, change your password IMMEDIATELY."
+
+      # Message sent when a user requests a password recovery.
+      recover-message:
+        - "To recover your account, use the command /twitter <new password> @code"
+        - ""
+        - "If it wasn't you, disregard this message."
+
+      # Message sent when a possible intruder is detected.
+      suspect-access:
+        - "The nLogin's system has detected suspicious activity on your @player account."
+        - ""
+        - "Date of attempt: @data @hora"
+        - ""
+        - "The ip address on this account has been temporarily banned on suspicion of intrusion."
+
+      # Message sent to users to activate Twitter security.
+      warn-message:
+        - ""
+        - " &7Perform the command &f/twitter associate &7to register"
+        - " &7your &ctwitter&7. By doing so, you"
+        - " &7decrease the chance of being hacked."
+        - ""
+
+      # Message sent to a user who logs on with a different ip address.
+      change-address:
+        - ""
+        - "&aSorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered Twitter account."
+        - "&aUse the /twitter command <sent code> to authenticate."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+        - "&7Remember to be following &f@twitter_sv &7no twitter."
+        - ""
+
+    email:
+      # Message sent when the e-mail provided is invalid.
+      invalid-account: "&cThe entered email is invalid."
+
+      # Message sent when the supplied email is the same as the server's.
+      server-email: "&cYou cannot use the server's email."
+
+      # Message sent when a user associates in the Email.
+      configure-message:
+        subject: "Confirmation of the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To complete your email registration process, use the command <strong>/email @code</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it wasn't you, ignore this message."
+          - "</p>"
+
+      # Message sent when a user logs in from a different ip address.
+      verify-message:
+        subject: "Login confirmation of the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To authenticate on the server, use the command <strong>/email @code</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it was not you, change your password <strong>IMMEDIATELY</strong>."
+          - "</p>"
+
+      # Message sent when a user requests a password recovery.
+      recover-message:
+        subject: "Recovering the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To recover your account, use the command <strong>/email <new password> @code</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it wasn't you, disregard this message."
+          - "</p>"
+
+      # Message sent when a possible intruder is detected.
+      suspect-access:
+        subject: "Suspicious activity on @player account"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " nLogin's system detected a suspicious activity on your account."
+          - "</p>"
+          - "<p>"
+          - "<strong>Date of attempt:</strong> @data @hora"
+          - "</p>"
+          - "<p>"
+          - "The ip address has been temporarily banned on suspicion of invasion."
+          - "</p>"
+
+      # Message sent to users to enable Email security
+      warn-message:
+        - ""
+        - " &7Perform the command &f/email associate &7to register"
+        - " &7your &cemail&7. By doing so, you"
+        - " &7decrease the chance of being hacked."
+        - ""
+
+      # Message sent to a user who logs on with a different ip address.
+      change-address:
+        - ""
+        - "&a Sorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered email address."
+        - "&aUse the command /email <sent code> to authenticate."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+
+  premium-login:
+    # Message sent when a premium login notification is sent to the player.
+    question:
+      - ""
+      - " &eAre you using a premium account?"
+      - " &7(after accepting, you will need to re-join.)"
+      - ""
+      - "[&aYes//&cNo]"
+      - ""
+
+    # Message sent when the player's account is already premium.
+    already-premium: "&cYour account is already marked as premium."
+
+    # Message sent when the player starts the premium login challenge.
+    challenge-kick: "&7To confirm that you are using a &apremium account&7, please log in again."
+
+  other-messages:
+    # Hover message: /login.
+    hover-message-login: "&7Spustelėkite čia, kad užbaigtumėte komandą ir greitai prisijungtumėte."
+
+    # Hover message: /register.
+    hover-message-register: "&7Spustelėkite čia, kad užbaigtumėte komandą ir greitai užregistruotumėte."
+
+    # Command usage: /login
+    message-login: "&eNaudokite komandą &7/login <slaptažodis>&e."
+
+    # Command usage: /register
+    message-register: "&eNaudokite komandą &7/register <slaptažodis> <slaptažodis>&e."
+
+    # Command usage: /changepassword
+    message-changepassword: "&eNaudokite komandą &7/changepassword <dabartinis slaptažodis> <naujas slaptažodis>&e."
+
+    # Command usage: /checkprofile
+    message-verify: "&eNaudokite komandą &7/checkprofile <žaidėjas>&e."
+
+    # Command usage: /unregister
+    message-unregister: "&eNaudokite komandą &7/unregister <dabartinis slaptažodis>&e."

@@ -1,0 +1,29 @@
+lastAccountName: matergaming110
+timestamps:
+  login: 1630145056688
+  logout: 1630151450534
+  lastteleport: 1630150752046
+ipAddress: 110.169.44.154
+lastlocation:
+  world: tmssmp_nether
+  x: 72.4799395963927
+  y: 39.0
+  z: 162.53520075239476
+  yaw: -46.712646
+  pitch: -3.5449936
+logoutlocation:
+  world: tmssmp
+  x: 174.64718384747002
+  y: 81.0
+  z: -53.2800442018533
+  yaw: -140.09937
+  pitch: 15.150263
+homes:
+  house:
+    world: world
+    x: 2882.493784994806
+    y: 70.49506601944698
+    z: -2263.3686115801897
+    yaw: 179.19464
+    pitch: 30.599918
+nickname: mater

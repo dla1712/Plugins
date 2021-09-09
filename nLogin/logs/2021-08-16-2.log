@@ -1,0 +1,31 @@
+[16 de agosto de 2021 21:32:46]: [nLogin]          __             _       
+[16 de agosto de 2021 21:32:47]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[16 de agosto de 2021 21:32:47]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[16 de agosto de 2021 21:32:47]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[16 de agosto de 2021 21:32:47]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[16 de agosto de 2021 21:32:47]: [nLogin]                   |___/            
+[16 de agosto de 2021 21:32:47]: [nLogin]  By: www.nickuc.com - V 9.3.3
+[16 de agosto de 2021 21:32:47]: [nLogin] 
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Detectando configurações de hardware/software...
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Todas as configurações do plugin foram carregadas em 287 ms.
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_br.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_en.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_es.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_pl.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_ru.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_fr.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_lt.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_de.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_tr.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_hu.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_cn.yml'
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Todas as mensagens foram carregadas em 245 ms.
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Inicializando controlador de configurações...
+[16 de agosto de 2021 21:32:47]: [nLogin] Performing inicialization tasks...
+[16 de agosto de 2021 21:32:47]: [DEBUG] [nLogin] Inicializando o controlador de banco de dados...
+[16 de agosto de 2021 21:32:48]: [DEBUG] [nLogin] Inicializando controlador de tarefas (pos start)...
+[16 de agosto de 2021 21:32:48]: [nLogin] nLogin was loaded in 1275ms.
+[16 de agosto de 2021 21:33:20]: [nLogin] 
+[16 de agosto de 2021 21:33:20]: [nLogin] Unloading resources from nLogin V 9.3.3...
+[16 de agosto de 2021 21:33:20]: [nLogin] 
+[16 de agosto de 2021 21:33:20]: [nLogin] nLogin was unloaded in 7ms.

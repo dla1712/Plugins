@@ -1,0 +1,25 @@
+lastAccountName: xiphoiddeath
+timestamps:
+  login: 1628865919652
+  lastteleport: 1628865521196
+  logout: 1628867470201
+ipAddress: 92.19.46.128
+nickname: §5WindowsTen§5
+lastlocation:
+  world: world
+  x: -68.69999998807907
+  y: 64.0
+  z: 43.54345987928718
+  yaw: 117.207825
+  pitch: 43.949738
+logoutlocation:
+  world: world
+  x: 170.86207530740103
+  y: 106.18133494318342
+  z: 42.89234206595186
+  yaw: -88.04379
+  pitch: 28.65028
+powertools:
+  stick:
+  - disable
+powertoolsenabled: false
